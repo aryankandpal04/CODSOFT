@@ -1,0 +1,60 @@
+/* Basic Reset and Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #007bff, #00bcd4); /* Gradient from blue to cyan */
+    color: white;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(to right, #007bff, #00bcd4); /* Gradient from blue to cyan */
+    color: white;
+}
+
+/* Content Sections */
+.intro, .qualities, .achievements, .gallery {
+    background: linear-gradient(to bottom right, #f8f9fa, #e3f2fd); /* Light gradient effect */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* List Items */
+.qualities li, .achievements li {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb); /* Light blue gradient */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Image Gallery */
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+    border: 5px solid #007bff; /* Border color matching header/footer */
+    border-radius: 8px;
+}
+
+/* Button Styling */
+.btn-primary {
+    background: linear-gradient(to right, #007bff, #00bcd4); /* Gradient button */
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #0056b3, #0097a7); /* Darker gradient on hover */
+}
+
+/* Alert Box */
+.alert-info {
+    background: linear-gradient(to right, #e3f2fd, #bbdefb); /* Gradient for alert box */
+    border: 1px solid #00bcd4;
+}

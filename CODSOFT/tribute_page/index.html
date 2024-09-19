@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute to Mahatma Gandhi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Gandhi Tribute</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#introduction">Introduction</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#qualities">Qualities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#achievements">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Mahatma Gandhi</h1>
+        <p class="lead">Father of the Nation</p>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <!-- Introduction Section -->
+        <section id="introduction" class="my-5">
+            <h2 class="text-center">Introduction</h2>
+            <p>Mahatma Gandhi, also known as the 'Father of the Nation,' was a prominent leader in the Indian independence movement. Born on October 2, 1869, in Porbandar, Gujarat, India, Gandhi is renowned for his philosophy of non-violence (Ahimsa) and his unwavering commitment to social justice and equality.</p>
+            <p>His leadership in the Indian struggle for independence from British rule was marked by his innovative use of non-violent civil disobedience. Gandhi's methods of peaceful protest and his principles of self-sufficiency and simplicity inspired movements for civil rights and freedom across the world.</p>
+        </section>
+
+        <!-- Qualities Section -->
+        <section id="qualities" class="my-5">
+            <h2 class="text-center">Admirable Qualities</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Commitment to Non-Violence: Gandhi’s steadfast belief in non-violence influenced many freedom movements around the world.</li>
+                        <li class="list-group-item">Leadership and Vision: His ability to mobilize and inspire millions with his vision for a free India was unparalleled.</li>
+                        <li class="list-group-item">Advocacy for Social Justice: Gandhi fought against social inequalities and worked tirelessly for the upliftment of the oppressed.</li>
+                        <li class="list-group-item">Dedication to Self-Sufficiency: He promoted self-reliance through the Swadeshi movement, encouraging Indians to use home-made products and boycott foreign goods.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div id="quote" class="alert alert-info">Click the button to see a famous quote!</div>
+                    <button id="quoteBtn" class="btn btn-primary">Show Quote</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="my-5">
+            <h2 class="text-center">Achievements</h2>
+            <p>Gandhi's impact on both Indian and global history is profound. Some of his notable achievements include:</p>
+            <ul>
+                <li><strong>Salt March (1930):</strong> A 240-mile march to the Arabian Sea to protest British salt tax, which garnered worldwide attention and support for the Indian independence movement.</li>
+                <li><strong>Quit India Movement (1942):</strong> A major campaign for India's immediate independence from British rule, which saw widespread civil disobedience and protest.</li>
+                <li><strong>Non-Cooperation Movement (1920-22):</strong> An initiative to withdraw cooperation from the British government and institutions, which united diverse sections of Indian society in the struggle for independence.</li>
+                <li><strong>Social Reforms:</strong> Efforts to eradicate untouchability, promote women’s rights, and improve the conditions of the marginalized communities.</li>
+            </ul>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="my-5">
+            <h2 class="text-center">Gallery</h2>
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <img src="https://th.bing.com/th/id/R.212a4a3915a1bb7403bbe946f62b35d6?rik=Q3c%2f0raY%2fMWEng&riu=http%3a%2f%2fi.huffpost.com%2fgadgets%2fslideshows%2f335456%2fslide_335456_3375651_free.jpg&ehk=BV6aL64%2bcylaV3k4JLd6R4C3vXSPJ6iQNkmVyEmvO8Y%3d&risl=&pid=ImgRaw&r=0" alt="Mahatma Gandhi 1" class="img-fluid rounded border border-primary">
+                    <p class="mt-2">Gandhi leading a peaceful march.</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="https://cbsnews1.cbsistatic.com/hub/i/r/2016/11/08/15be221c-4065-45ae-8bff-bbf9ba4c32a5/thumbnail/1240x930/cc510203faa2af0b2d6e1c0eb0c8a8da/mahatma-gandhi-kanubhai.jpg" alt="Mahatma Gandhi 2" class="img-fluid rounded border border-primary">
+                    <p class="mt-2">Gandhi with his grandsons during a protest.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>Created with admiration and respect for Mahatma Gandhi.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
